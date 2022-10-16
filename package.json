@@ -2,7 +2,7 @@
     "name": "ReactFromScratch",
     "version": "1.0.0",
     "description": "",
-    "main": ".eslintrc.js",
+    "main": "index.js",
     "scripts": {
         "cleanspace": "rm -rf node_modules",
         "install:linter:formatter": "npm i -D prettier @trivago/prettier-plugin-sort-imports eslint eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import ",
