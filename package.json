@@ -1,0 +1,33 @@
+{
+    "name": "ReactFromScratch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "cleanspace": "rm -rf node_modules",
+        "install:linter:formatter": "npm i -D prettier @trivago/prettier-plugin-sort-imports eslint eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import ",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier:format": "prettier --write \"./*.{js, jsx, ts, tsx, json}\"",
+        "lint:fix": "eslint . --ext js",
+        "prettier:eslint:all": "npm run prettier:format && npm run lint:fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trankhoa798devpath/ReactFromScratch.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/trankhoa798devpath/ReactFromScratch/issues"
+    },
+    "homepage": "https://github.com/trankhoa798devpath/ReactFromScratch#readme",
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^3.3.1",
+        "eslint": "^8.25.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.5.1",
+        "eslint-plugin-import": "^2.26.0",
+        "prettier": "^2.7.1"
+    }
+}
